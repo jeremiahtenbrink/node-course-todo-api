@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6a2c49c-7944-48a4-9c9d-6c3b66e2c850" name="Default Changelist" comment="Add delete script.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/browser_build/bson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/browser_build/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/binary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/bson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/db_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/decimal128.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/double.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/float_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/int_32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/long.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/max_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/min_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/objectid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/calculate_size.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/deserializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/serializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/timestamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bson/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/memory-pager/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/memory-pager/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/memory-pager/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/memory-pager/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/memory-pager/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/memory-pager/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/defaultAuthProviders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/gssapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/mongocr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/plain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/scram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/sspi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/x509.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/apm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/command_result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/pool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/monitoring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server_description.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server_selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/topology.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/topology_description.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sessions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/tools/smoke_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/mongos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/read_preference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset_state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/transactions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/uri_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/compression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/aggregation_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/apm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/authenticate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/ordered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/change_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/command_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/download.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/grid_store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/admin_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/collection_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/cursor_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/db_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/mongo_client_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/mongos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/replset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/topology_base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/test/nestedTest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/test/nestedTest/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/require_optional/test/require_optional_tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve-from/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve-from/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve-from/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/resolve-from/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/code-points.mem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/generate-code-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/lib/code-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/lib/memory-code-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/saslprep/test/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/semver/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/semver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/semver/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/semver/range.bnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/semver/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/mongodb-update.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/mongodb-connect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/mongodb-find.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/mongodb-delete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/mongodb-update.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/playground/mongodb-connect.js" />
+        <option value="$PROJECT_DIR$/playground/mongodb-find.js" />
+        <option value="$PROJECT_DIR$/playground/mongodb-delete.js" />
+        <option value="$PROJECT_DIR$/playground/mongodb-update.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1968" />
+    <option name="y" value="-23" />
+    <option name="width" value="1750" />
+    <option name="height" value="1025" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="node-todo-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-todo-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-todo-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-todo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="mongodb-find.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/mongodb-find.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.mongodb-find.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\jeremiah\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6a2c49c-7944-48a4-9c9d-6c3b66e2c850" name="Default Changelist" comment="" />
+      <created>1544671252910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544671252910</updated>
+      <workItem from="1544671254213" duration="8116000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <created>1544730949456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544730949456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add delete script.">
+      <created>1544732965861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544732965861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8116000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49966952" weight="0.32719547" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50033045" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit." />
+    <MESSAGE value="Add delete script." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add delete script." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/playground/mongodb-find.js</url>
+          <line>31</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/mongodb-connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/mongodb-delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/mongodb-find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/mongodb-update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
