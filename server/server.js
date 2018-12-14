@@ -20,10 +20,10 @@ app.post('/todos', (req, res) => {
     todo.save().then((doc) => {
        console.log("Saved todo");
        console.log(JSON.stringify(doc, undefined, 2));
-       res.send(JSON.stringify(doc));
+       res.send(doc);
     },(e) => {
         console.log('Unable to save todo');
-        res.send("Unable to save todo", e);
+        res.status(400).send("Unable to save todo");
     });
 });
 
@@ -31,6 +31,7 @@ app.listen(4000, () => {
     console.log('Started on port 4000');
 });
 
+module.exports = {app};
 
 
 
